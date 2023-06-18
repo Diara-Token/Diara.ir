@@ -1,1011 +1,626 @@
-<!DOCTYPE html>
-<html dir="rtl" lang="fa">
+<!doctype html>
+<html lang="fa">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Diara - a Powerful team</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@300&display=swap"
-    rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-
-  <!-- ======================================================= 
-  توسعه دهنده مهران علم بیگی
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>دیارا</title>
+    <meta name="description" content="خدمات نوین برنامه‌نویسی">
+    <meta name="keywords"
+        content="دیارا,برنامه نویسی,IRDevelopers,گروه های برنامه‌نویسی,برنامه نویسان ایرانی,گروه برنامه نویسی تلگرام,برنامه نویس ایرانی,برنامه نویسان ایرانی,برنامه‌نویسی,Developix">
+    <meta name="author" content="mehranalam">
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="دیارا" />
+    <meta property="og:description" content="خدمات نوین برنامه‌نویسی" />
+    <meta property="og:site_name" content="دیارا" />
+    <meta property="og:image" content="/icons/android-icon-192x192.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="خدمات نوین برنامه‌نویسی" />
+    <meta name="twitter:title" content="دیارا" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ebebeb">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ebebeb">
+    <meta name="google-site-verification" content="PTaoykVAQlFU-98_BluD-7KfIYrSKYPTLmRL6Z1cUIw" />
+    <link rel="stylesheet" href="css/app.css?ver=1.0.4">
+    <script src="js/bundle.js"></script>
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
+    <script>
+        NProgress.start();
 
-      <div class="logo">
-        <h1><a href="index.html"><span>دیارا</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">خانه</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">درباره ما</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#features">ویژگی ها ما</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#gallery">عکس ها</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">تیم</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#pricing">پنل ها</a></li> ... for button list <i class="bi bi-chevron-down"></i> -->
-          <li class="dropdown"><a href="inner-page.html"><span>ثبت پروژه</span></a>
-            <!-- <ul>
-              <li><a href="#">کالای خواب</a></li>
-              <li class="dropdown"><a href="#"><span>دیجیتال</span></a>
-                <ul>
-                  <li><a href="#">لپتاپ ها</a></li>
-                  <li><a href="#">موبایل</a></li>
-                  <li><a href="#">کنسول</a></li>
-                  <li><a href="#">تلویزیون</a></li>
-                  <li><a href="#">رسانه های خانگی</a></li>
-                </ul>
-              </li>
-              <li><a href="#">کالای خانه</a></li>
-              <li><a href="#">خرید اپل آیدی</a></li>
-              <li><a href="#">اکسسوری</a></li>
-            </ul> -->
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">ارتباط با ما</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        window.addEventListener("contextmenu", e => {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+
+    <div class="holder">
+
+        <header id="header">
+
+            <a href="/" id="brand">
+                <h1 class="bold">دیارا</h1>
+            </a>
+
+            <ul id="menu" class="tablet-and-up">
+                <li class="neumorph-1 clickable"><a href="#section-intro">معرفی</a></li>
+                <li class="neumorph-1 clickable"><a href="#section-bots">ربات‌ها</a></li>
+                <li class="neumorph-1 clickable"><a href="#section-team">تیم</a></li>
+            </ul>
+
+            <ul id="widgets">
+                <li class="neumorph-1 clickable desktop-only toggle-screen" title="حالت تمام‌صفحه"><i
+                        class="icon-maximize toggle-screen-icon"></i></li>
+                <li class="toggle-btn" id="mode-switch">
+                    <input type="checkbox" id="mode-switch-toggle" checked>
+                    <span></span>
+                </li>
+            </ul>
+
+        </header>
+
+        <section id="section-intro" class="sections">
+             <div id="iphone-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" fill="none"><style><![CDATA[.B{color-interpolation-filters:sRGB}.C{flood-opacity:0}.D{fill:#f0f0f3}.E{stroke-linejoin:round}]]></style><g filter="url(#A)"><circle cx="260" cy="300" r="256" transform="rotate(90 260 300)" fill="url(#O)"/></g><path d="M393.5 14.4h-268V580h268V14.4z" class="D"/><path d="M393.1 14.8H125.9V579.6H393.1V14.8Z" stroke="#707070" stroke-width=".8"/><g clip-path="url(#Q)" class="D"><g filter="url(#B)"><path d="M168.222 455H58.333c-13.193 0-23.889 7.275-23.889 16.25v110.5c0 8.975 10.695 16.25 23.889 16.25h109.889c13.194 0 23.889-7.275 23.889-16.25v-110.5c0-8.975-10.695-16.25-23.889-16.25z"/></g></g><g clip-path="url(#R)"><g filter="url(#C)"><path d="M402.148 168.225c-11.911-20.631-38.292-27.699-58.923-15.788s-27.699 38.292-15.788 58.922 38.292 27.7 58.922 15.789 27.7-38.292 15.789-58.923z" fill="#eee"/></g><g stroke="#fb7575" stroke-width="2" class="E"><path d="M350 174.444c0-1.974.784-3.867 2.179-5.263a7.43 7.43 0 0 1 5.26-2.181h7.439v14.889h-7.439c-1.973 0-3.865-.784-5.26-2.18a7.45 7.45 0 0 1-2.179-5.265z"/><path d="M364.878 167h7.439c.977 0 1.945.193 2.847.567a7.41 7.41 0 0 1 2.413 1.614c.691.691 1.239 1.511 1.613 2.415s.566 1.871.566 2.848-.192 1.946-.566 2.849a7.46 7.46 0 0 1-1.613 2.416c-.69.691-1.51 1.239-2.413 1.613s-1.87.567-2.847.567h-7.439V167z"/><path d="M364.878 189.333a7.47 7.47 0 0 1 .566-2.849c.374-.903.922-1.723 1.613-2.415a7.43 7.43 0 0 1 2.413-1.613 7.44 7.44 0 0 1 2.847-.567c.977 0 1.945.193 2.847.567s1.723.922 2.413 1.613a7.46 7.46 0 0 1 1.613 2.415 7.45 7.45 0 0 1 .566 2.849c0 .978-.192 1.946-.566 2.849a7.46 7.46 0 0 1-1.613 2.416c-.69.691-1.51 1.239-2.413 1.613a7.44 7.44 0 0 1-5.694 0c-.902-.374-1.722-.922-2.413-1.613a7.46 7.46 0 0 1-1.613-2.416c-.373-.903-.566-1.871-.566-2.849zM350 204.222a7.45 7.45 0 0 1 2.179-5.264c1.395-1.396 3.287-2.18 5.26-2.18h7.439v7.444c0 1.975-.784 3.868-2.179 5.264a7.43 7.43 0 0 1-10.52 0c-1.395-1.396-2.179-3.289-2.179-5.264z"/><path d="M350 189.333a7.45 7.45 0 0 1 2.179-5.264c1.395-1.396 3.287-2.18 5.26-2.18h7.439v14.889h-7.439c-1.973 0-3.865-.784-5.26-2.18a7.45 7.45 0 0 1-2.179-5.265z"/></g></g><g filter="url(#D)" class="D"><path d="M226.237 303.724c0-28.45-23.063-51.513-51.513-51.513s-51.513 23.063-51.513 51.513 23.063 51.513 51.513 51.513 51.513-23.063 51.513-51.513z"/></g><path d="M155 314.333h19.652H155zm0 0v-19.666h39.305V275H155l39.305 39.333h-19.653H155zm0 0L174.652 334v-19.667H155z" stroke="#745ff2" stroke-width="2" class="E"/><path id="svg-frame" d="M406.166 136.634V42.966C406.166 18.966 387.5.8 363.5.8H156.166C132.166.8 112 19.05 112 42.966v36.166h-2.5v22.5h2.5v20.833h-2.5v42.5h2.5v12.5h-2.5v42.5h2.5v334.5c0 24 20.25 44.667 44.166 44.667H363.5c24 0 42.666-20.667 42.666-44.667V205.8h3.334v-69.166h-3.334zM294.75 19.55c0 .725-.215 1.434-.618 2.037a3.67 3.67 0 0 1-1.646 1.35c-.67.277-1.407.35-2.118.209s-1.365-.491-1.877-1.003a3.67 3.67 0 0 1-1.004-1.877c-.141-.711-.069-1.448.209-2.118a3.66 3.66 0 0 1 1.35-1.645c.603-.403 1.312-.618 2.037-.618.97.008 1.898.398 2.583 1.083a3.7 3.7 0 0 1 1.084 2.583h0zm-49.584-.417h32.5c1.417 0 2.5.834 2.5 2.08s-1.083 2.08-2.5 2.08h-32.5c-1.416 0-2.5-.834-2.5-2.08s1.084-2.079 2.5-2.079v-.001zM390.334 552.55c0 14.583-10.75 27.416-25.334 27.416H157.5c-14.583 0-27.166-12.833-27.166-27.416V41.466c0-14.5 12.666-24.834 27.166-24.834h24c5.083 0 6.917-.75 7.25 5.666a12.5 12.5 0 0 0 3.334 8c2.122 2.273 4.79 3.966 7.75 4.917 2.138.805 4.386 1.283 6.667 1.417h109.582c2.251 0 4.583-.917 6.667-1.583a18.23 18.23 0 0 0 7.75-4.75c2.073-2.088 3.266-4.892 3.334-7.834.333-6.417 2.166-5.92 7.25-5.92h23.75c14.584 0 25.334 10.334 25.334 24.834v511.17h.166z" fill="#000"/><path d="M277.666 19.134h-32.5c-1.416 0-2.5.834-2.5 2.08s1.084 2.08 2.5 2.08h32.5c1.417 0 2.5-.834 2.5-2.08s-1.166-2.08-2.5-2.08zm13.417 4.082a3.67 3.67 0 0 0 3.667-3.666 3.67 3.67 0 0 0-3.667-3.666c-2.025 0-3.666 1.641-3.666 3.666s1.641 3.666 3.666 3.666z" fill="#f2f2f2"/><path d="M299.9 568.8h-81.6a2.4 2.4 0 1 0 0 4.8h81.6a2.4 2.4 0 1 0 0-4.8z" fill="#999"/><g filter="url(#E)" class="D"><path d="M263.932 478.212h-32.22c-6.355 0-11.507 5.156-11.507 11.515v32.243c0 6.359 5.152 11.515 11.507 11.515h32.22c6.355 0 11.506-5.156 11.506-11.515v-32.243c0-6.359-5.151-11.515-11.506-11.515z"/></g><g stroke="#fb7575" class="E"><path d="M239.767 498.364a4.03 4.03 0 0 1 1.18-2.85c.755-.756 1.779-1.181 2.848-1.181h4.027v8.061h-4.027c-1.069 0-2.093-.425-2.848-1.18a4.03 4.03 0 0 1-1.18-2.85z"/><path d="M247.822 494.333h4.027a4.04 4.04 0 0 1 1.542.307c.488.203.932.5 1.306.874a4.02 4.02 0 0 1 .873 1.307 4.04 4.04 0 0 1 0 3.085c-.202.489-.499.933-.873 1.308s-.818.671-1.306.873a4.02 4.02 0 0 1-1.542.307h-4.027v-8.061z"/><path d="M247.822 506.424a4.04 4.04 0 0 1 .306-1.542 4.05 4.05 0 0 1 .874-1.308c.374-.374.818-.671 1.306-.873a4.03 4.03 0 0 1 1.541-.307 4.02 4.02 0 0 1 1.542.307c.488.202.932.499 1.306.873s.671.819.873 1.308a4.04 4.04 0 0 1 .307 1.542c0 .529-.105 1.054-.307 1.543a4.02 4.02 0 0 1-.873 1.307c-.374.374-.818.671-1.306.874a4.04 4.04 0 0 1-1.542.307c-.529 0-1.052-.105-1.541-.307s-.932-.5-1.306-.874-.671-.818-.874-1.307-.306-1.014-.306-1.543zm-8.055 8.061a4.03 4.03 0 0 1 1.18-2.85c.755-.756 1.779-1.18 2.848-1.18h4.027v4.03a4.03 4.03 0 0 1-1.18 2.85c-.755.756-1.779 1.18-2.847 1.18s-2.093-.424-2.848-1.18a4.03 4.03 0 0 1-1.18-2.85z"/><path d="M239.767 506.424a4.03 4.03 0 0 1 1.18-2.85c.755-.755 1.779-1.18 2.848-1.18h4.027v8.061h-4.027c-1.069 0-2.093-.425-2.848-1.181a4.03 4.03 0 0 1-1.18-2.85z"/></g><g filter="url(#F)" class="D"><path d="M355.986 478.212h-32.219c-6.355 0-11.507 5.156-11.507 11.515v32.243c0 6.359 5.152 11.515 11.507 11.515h32.219c6.355 0 11.507-5.156 11.507-11.515v-32.243c0-6.359-5.152-11.515-11.507-11.515z"/></g><g filter="url(#G)"><path d="M353.685 480.515h-27.617c-6.355 0-11.506 5.156-11.506 11.515v27.637c0 6.359 5.151 11.515 11.506 11.515h27.617c6.355 0 11.507-5.156 11.507-11.515V492.03c0-6.359-5.152-11.515-11.507-11.515z" fill="#eee"/></g><path d="M331.822 510.455h8.055-8.055zm0 0v-8.061h16.11v-8.061h-16.11l16.11 16.122h-8.055-8.055zm0 0l8.055 8.06v-8.06h-8.055z" stroke="#745ff2" class="E"/><g clip-path="url(#S)"><g filter="url(#H)" class="D"><path d="M147.273 166v41.455c0 11.447 9.28 20.727 20.727 20.727s20.727-9.28 20.727-20.727V166c0-11.447-9.28-20.727-20.727-20.727s-20.727 9.28-20.727 20.727z"/></g><g filter="url(#I)"><path d="M149 166v41.455c0 10.493 8.507 19 19 19s19-8.507 19-19V166c0-10.493-8.507-19-19-19s-19 8.507-19 19z" fill="#eee"/></g><g filter="url(#J)" class="D"><path d="M168 152.182c-8.586 0-15.545 6.96-15.545 15.545s6.959 15.546 15.545 15.546 15.545-6.96 15.545-15.546-6.959-15.545-15.545-15.545z"/></g></g><g fill="#cfd7df"><rect x="237" y="275" width="141" height="14" rx="3"/><rect x="237" y="301" width="141" height="14" rx="3"/><rect x="278" y="327" width="100" height="14" rx="3"/><rect x="205" y="165" width="109" height="11" rx="3"/><rect x="205" y="185" width="109" height="11" rx="3"/><rect x="237" y="205" width="77" height="11" rx="3"/></g><g filter="url(#K)" class="D"><path d="M361.719 392.077H152.526c-5.251 0-9.508 4.27-9.508 9.538s4.257 9.539 9.508 9.539h209.193c5.252 0 9.509-4.271 9.509-9.539s-4.257-9.538-9.509-9.538z"/></g><g filter="url(#L)"><path d="M362.195 394.462H152.051c-3.939 0-7.132 3.202-7.132 7.153s3.193 7.154 7.132 7.154h210.144c3.939 0 7.131-3.203 7.131-7.154s-3.192-7.153-7.131-7.153z" fill="#eee"/></g><g filter="url(#M)"><path d="M240.483 394.462h-88.432c-3.939 0-7.132 3.202-7.132 7.153s3.193 7.154 7.132 7.154h88.432c3.938 0 7.131-3.203 7.131-7.154s-3.193-7.153-7.131-7.153z" fill="url(#P)"/></g><g filter="url(#N)" class="D"><path d="M359.606 74.758h-27.151a9.7 9.7 0 0 0-9.697 9.697v27.152a9.7 9.7 0 0 0 9.697 9.697h27.151a9.7 9.7 0 0 0 9.697-9.697V84.455a9.7 9.7 0 0 0-9.697-9.697z"/></g><path d="M355.766 84h-.032c-.094.07-.214.039-.321.045-2.265-.001-4.529 0-6.794-.001v2.589h6.078l6.683 6.718-12.539 12.606.001 3.663 15.916-16.002c.087-.086.191-.164.214-.292l.028.049v-.103l-.001.05-9.269-9.313.036-.009zm-19.44 0h-.05L327 93.32v.002c.169.191.381.344.511.567l15.648 15.733c.062-.06.04-.15.046-.226l-.001-3.395-12.583-12.65 6.682-6.718h6.078v-2.589c-2.372-.002-4.744.004-7.115-.003l.06-.041zm10.917.045h-2.486v7.052l6.891-.002 2.872 2.884-5.764 5.79v3.522l3.783-3.793 3.996-4.012 1.495-1.518-5.34-5.369h-5.447v-4.552zm-3.907 4.552c-1.334.001-2.669-.003-4.003.002-.07-.007-.115.052-.161.094l-5.246 5.281 1.699 1.704a2.01 2.01 0 0 1 .308.275l8.789 8.836c.054.045.029.125.036.187l-.001 6.16 1.236 1.251h.006l1.244-1.251-.005-7.261-.058-.036.065-.048-9.784-9.836 2.846-2.859 3.029.002v-2.499z" fill="#f45755"/><g fill="#cfd7df"><rect x="221" y="81" width="92" height="18" rx="3"/><rect x="140" y="103" width="173" height="14" rx="3"/></g><defs><filter id="A" x="0" y="44" width="520" height="520" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="4"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="A"/><feBlend in="SourceGraphic"/></filter><filter id="B" x="30.444" y="451" width="166.167" height="151.5" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="C" x="304.87" y="129.87" width="119.845" height="119.845" filterUnits="userSpaceOnUse" class="B"><feFlood class="C"/><feBlend in="SourceGraphic" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.15 0"/><feBlend in2="B" result="D"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/><feBlend in2="D"/></filter><filter id="D" x="119.211" y="248.211" width="111.526" height="111.526" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="E" x="216.205" y="474.212" width="63.733" height="63.773" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="F" x="308.26" y="474.212" width="63.733" height="63.773" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="G" x="313.562" y="479.515" width="52.63" height="52.667" filterUnits="userSpaceOnUse" class="B"><feFlood class="C"/><feBlend in="SourceGraphic" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.15 0"/><feBlend in2="B" result="D"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/><feBlend in2="D"/></filter><filter id="H" x="143.273" y="141.273" width="49.955" height="91.409" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="I" x="148" y="146" width="40" height="81.455" filterUnits="userSpaceOnUse" class="B"><feFlood class="C"/><feBlend in="SourceGraphic" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="1"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.2 0"/><feBlend in2="B" result="D"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/><feBlend in2="D"/></filter><filter id="J" x="146.455" y="146.182" width="42.091" height="42.091" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.3 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.3 0"/><feBlend in2="B" result="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="2.5"/><feColorMatrix values="0 0 0 0 0.916667 0 0 0 0 0.916667 0 0 0 0 0.916667 0 0 0 1 0"/><feBlend in2="C"/><feBlend in="SourceGraphic"/></filter><filter id="K" x="139.018" y="388.077" width="236.711" height="27.577" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><filter id="L" x="143.919" y="393.462" width="226.407" height="16.308" filterUnits="userSpaceOnUse" class="B"><feFlood class="C"/><feBlend in="SourceGraphic" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="1" dy="1"/><feGaussianBlur stdDeviation="1"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.2 0"/><feBlend in2="B" result="D"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="C"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation=".5"/><feComposite in2="C" operator="arithmetic" k2="-1" k3="1"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/><feBlend in2="D"/></filter><filter id="M" x="142.919" y="392.462" width="106.695" height="18.308" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="1"/><feColorMatrix values="0 0 0 0 0.447917 0 0 0 0 0.542215 0 0 0 0 0.716667 0 0 0 0.7 0"/><feBlend in2="A"/><feBlend in="SourceGraphic"/></filter><filter id="N" x="318.758" y="70.758" width="55.046" height="55.046" filterUnits="userSpaceOnUse" class="B"><feFlood result="A" class="C"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="1.5" dy="1.5"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 0.682353 0 0 0 0 0.682353 0 0 0 0 0.752941 0 0 0 0.4 0"/><feBlend in2="A" result="B"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dx="-1" dy="-1"/><feGaussianBlur stdDeviation="1.5"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/><feBlend in2="B"/><feBlend in="SourceGraphic"/></filter><linearGradient id="O" x1="260" y1="44" x2="260" y2="556" gradientUnits="userSpaceOnUse"><stop stop-color="#f45556"/><stop offset="1" stop-color="#fd8a45"/></linearGradient><linearGradient id="P" x1="196.267" y1="394.462" x2="196.267" y2="408.769" gradientUnits="userSpaceOnUse"><stop stop-color="#f45655"/><stop offset="1" stop-color="#fc8247"/></linearGradient><clipPath id="Q"><path fill="#fff" transform="translate(130 442)" d="M0 0h86v143H0z"/></clipPath><clipPath id="R"><path fill="#fff" transform="translate(321 146)" d="M0 0h87v87H0z"/></clipPath><clipPath id="S"><path fill="#fff" transform="matrix(0 -1 1 0 130 242)" d="M0 0h114v76H0z"/></clipPath></defs></svg>
+                </div>
+            <div id="intro-container">
+                <h2>معرفی</h2>
+
+                <p>
+                    مجموعه و تیم تحقیقاتی دیارا از خرداد سال ۱۴۰۲ پایه های اساسی خود را ایجاد و اهداف را طبقه بندی کرد هدف اصلی این تیم کار روی یکسری پروژه های عام المنفعله درجهت بالابردن مهارت ها و اسکیل های فردیست در نهایت با استفاده از آن اسکیل ها روی یکسری پروژه های تجاری کار خواهد کرد
+                </p>
+
+                <p style="margin-top: 16px;">
+                    سعی بر این است که با بهره‌گیری از جدیدترین روش‌ها و استاندارد های کیفیتی، بستری نوین و یکپارچه‌ای را
+                    برای توسعه‌دهندگان و طراحان فراهم کند
+                </p>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="section-bots" class="sections">
+
+            <h2 class="title">ربات‌ها</h2>
+
+            <ul>
+
+                <li id="bot-irdevelopersbot">
+                    <img id="point-g" class="neumorph-1 no-select" src="assets/images/bots/managebot.jpg"
+                        alt="IRDevelopers">
+                    <h3>ربات هوشمند دیارا - مدیریت</h3>
+
+                    <p>مدیریت هوشمند گروه</p>
+                    <p>سیستم امتیاز دهی</p>
+                    <p>دسته‌بندی سوالات</p>
+                    <p>درجه‌بندی کاربران</p>
+                    <p>تفکیک دسترسی‌ها</p>
+                    <p>سیستم پیام‌خصوصی</p>
+                    <p>اتصال به سایت مجموعه دیارا</p>
+                    <p>اطلاع رسانی همگانی</p>
+                    <p>نگهداری وضعیت دانشجویی</p>
+
+                    <a class="neumorph-1 clickable" href="https://t.me/diara_group_bot" target="_blank">مشاهده ربات</a>
+                    <a class="neumorph-1 clickable" href="/documentation/diaramange.html" target="_blank">مطالعه
+                        مستندات</a>
+                </li>
+
+                <li id="bot-codilobot">
+                    <img class="neumorph-1 no-select" src="assets/images/bots/voicechat.jpg" alt="Codilo">
+                    <h3>ربات پخش موزیک در ویس چت</h3>
+
+                    <p>جستجوی موزیک</p>
+                    <p>دانلود موزیک</p>
+                    <p>پخش موزیک با تکنولوژی Tunnel</p>
+                    <p>متوقف کردن پخش در ویس چت</p>
+                    <p>اتصال به Spotify</p>
+
+                    <a class="neumorph-1 clickable" href="https://t.me/diara_music_bot" target="_blank">مشاهده ربات</a>
+                    <a class="neumorph-1 clickable" href="/documentation/voicechatmusic.html" target="_blank">مطالعه مستندات</a>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section id="section-team" class="sections">
+
+            <h2 class="title">تیم</h2>
+
+            <ul id="team-ul">
+                <li class="neumorph-1 item-team">
+                    <img class="neumorph-1 no-select" src="assets/images/team/mehran.jpeg"
+                        alt="Maryam ShahMohammadi">
+                    <a href="https://mrysh.ir" target="_blank">
+                        <h3>مهران علم‌ بیگی</h3>
+                    </a>
+                    <ul>
+                        <li class="neumorph-1 clickable"><a href="https://github.com/mehranalam" target="_blank"><i
+                                    class="icon-github"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-mail"></i></a></li>
+                    </ul>
+                    <span>عضو پارلمان دیارا</span>
+                </li>
+
+                <li class="neumorph-1 item-team" id="point-h">
+                    <img class="neumorph-1 no-select" src="assets/images/team/yeganeh.jpeg" alt="Erfan Mola">
+                    <a href="https://erfanmola.ir" target="_blank">
+                        <h3>یگانه تقی زاده</h3>
+                    </a>
+                    <ul>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-instagram"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-tel2"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-github"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-mail"></i></a></li>
+                    </ul>
+                    <span>عضو پارلمان دیارا</span>
+                </li>
+
+                <li class="neumorph-1 item-team" id="point-h">
+                    <img class="neumorph-1 no-select" src="assets/images/team/sina.jpeg" alt="Erfan Mola">
+                    <a href="https://erfanmola.ir" target="_blank">
+                        <h3>سید سینا مهدی‌زادگان</h3>
+                    </a>
+                    <ul>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-instagram"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-tel2"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-github"></i></a></li>
+                        <li class="neumorph-1 clickable"><a href="/" target="_blank"><i
+                                    class="icon-mail"></i></a></li>
+                    </ul>
+                    <span>عضو پارلمان دیارا</span>
+                </li>
+
+                <!-- <li class="neumorph-1 item-team inset-1 empty">
+                    <p>نفر بعدی</p>
+                </li> -->
+            </ul>
+
+        </section>
 
     </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
+    <footer class="neumorph-1 inset-1">
+        <div class="holder">
 
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-          <div data-aos="zoom-out">
-            <h1>کانونی هدفمن - خلاق منظم و بابرنامه برای فتح قله ها</h1>
-            <h2>یک تیم دانشگاهی مبتنی بر علاقه در جهت پیشرفت فردی و تقویت کارگروهی دیاراتیمی پر از شوق</h2>
-            <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto">ارگانیزشن مجموعه</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
-
-    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28 " preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
-    </svg>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-
-      <div style="display: flex; flex-direction: row; justify-content: space-around;">
-        <div class="diara-intro">
-          <h5>دیارا - هوشمندی تمام عیار</h5>
-          <ul>
-            <li>قوانین و فیچر ها</li>
-          </ul>
-          <p>برای فعالیت در تیم تمامی کاربران ملزم به رعایت و پایبندی‌های زیر می‌باشند و هرگونه عملی در جهت نقض قوانین
-            ذکر شده باعث محدود شدن عضو و کثر امتیاز می‌شود. بدیهی است که میزان و مدت محدودسازی و کثر امتیاز کاربران
-            وابسته به میزان تخلف صورت گرفته می‌باشد</p>
-          <p>
-            هر عضو داخل مجموعه دارای یک پروفایل کاربری میباشد، که دارای اطلاعاتی مانند مجموعه بونس ها یا امتیاز، مهارت
-            های کاربردی، لینک رزومه و درصد میزان مشارکت است.
-
-            مجموعه در آخر هر ماه یکسری تعاریف پروژه‌ای در ۲ زمینه مهندسی کامپیوتر و پزشکی خواهد داشت، و ارائه پروژه مدت
-            زمانی حداکثر ۲ هفته‌ای رو دارد.</p>
-
-          <h5>سیستم امتیازدهی</h5>
-          <ul>
-            <li>ویژگی رقاب گونه امتیازها</li>
-          </ul>
-          <p>دریافت امتیاز ها منوت به میزان مشارکت عضو داخل مجموعه‌است، به هر اندازه که عضوی مفید و ارزشمند باشد، به طبع
-            امتیاز بالاتری خواهد داشت.
-
-            فواید این امتیاز ها میتونه ارجهیت ارسال رزومه برای دریافت پیشنهادات کاری باشد.</p>
-        </div>
-
-        <div style="margin-left: 20px;"
-          class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-          <img src="/assets/img/details-4.png" alt="">
-        </div>
-
-      </div>
-
-      <!-- <div class="container-fluid">
-
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
-            data-aos="fade-right">
-            <a href="video-such.html" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-
-          <div
-            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
-            data-aos="fade-left">
-            <h3>لورم ایپسوم متن ساختگی با تولید سادگی3 نامفهوم از صنعت چاپ</h3>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-              کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
-              شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-              الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
-              موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
-              جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">لورم ایپسوم متن ساختگی</a></h4>
-              <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">لورم ایپسوم متن ساختگی</a></h4>
-              <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
-                مورد نیاز</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">لورم ایپسوم متن ساختگی با تولید</a></h4>
-              <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                گرافیک است</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div> -->
-    </section><!-- End About Section -->
-
-    <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>ویژگی </h2>
-          <p>ویژگی های شرکت مهرانیا</p>
-        </div>
-
-        <div class="row" data-aos="fade-left">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
-              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">لورم ایپسوم متن ساختگی</a></h3>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section> End Features Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row" data-aos="fade-up">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>رضایت مشتریان</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>پروژه های تحویل داده شده</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>ساعات پشتیبانی شده از مشتریان</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>همکاران سخت کوش ما</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Details Section ======= -->
-    <!-- <section id="details" class="details">
-      <div class="container">
-
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h3>
-            <p class="fst-italic">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-            </p>
             <ul>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
+                <li>
+                    <h4>وضعیت خدمات</h4>
+
+                    <p>برای مشاهده وضعیت در دسترس بودن یا نبودن سرویس های زیرمجموعه دیارا می‌توانید از صفحه زیر
+                        استفاده کنید</p>
+
+                    <a class="neumorph-1 clickable" href="https://status.diara.ir" target="_blank">
+                        <i class="icon-codesandbox"></i>
+                        وضعیت سرویس‌ها
+                    </a>
+                </li>
+
+                <li>
+                    <h4>اینستاگرام</h4>
+
+                    <p>برای مشاهده و اطلاع از مطالب و محتوا های تولید شده دیارا در بستر اینستاگرام می‌توانید صفحه
+                        زیر را دنبال کنید</p>
+
+                    <a class="neumorph-1 clickable" href="https://instagram.com/Diara_token" target="_blank">
+                        <i class="icon-instagram"></i>
+                        صفحه اینستاگرام
+                    </a>
+                </li>
+
+                <li>
+                    <h4>گیت‌هاب</h4>
+
+                    <p>این وبسایت به‌صورت رایگان و آزاد منتشر شده و قابل دسترس می‌باشد، درصورت لزوم می‌توانید آن را در
+                        گیت‌هاب مشاهده کنید</p>
+
+                    <a class="neumorph-1 clickable" href="https://github.com/diara-token/diara.ir" target="_blank">
+                        <i class="icon-github"></i>
+                        مشاهده گیت‌هاب
+                    </a>
+                </li>
             </ul>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
-            </p>
-          </div>
+
+            <p id="copyright">طراحی و توسعه با <i class="icon-heart"></i> توسط <a href="https://erfanmola.ir"
+                    target="_blank">مهران</a></p>
         </div>
+    </footer>
+
+    <div id="back-to-top"><i class="icon-chevron-up"></i></div>
+
+    <div id="fake-blur"></div>
+
+    <script>
+        let targets = [
+            ['iphone-container', 'point-b', 800, 'bottom', 'bottom'],
+            ['point-b', 'point-c', -250, 'right', 'bottom'],
+            ['point-c', 'point-d', -250, 'right', 'top'],
+            ['point-d', 'point-e', 200, 'bottom', 'bottom'],
+            ['point-e', 'point-g', -200, 'right', 'top'],
+            // [ 'point-f', 'point-g', 500, 'bottom', 'right' ],
+            ['point-g', 'point-h', 1000, 'bottom', 'right'],
+        ];
+
+        let toggle_screens = document.getElementsByClassName('toggle-screen');
+        let toggle_screen_icons = document.getElementsByClassName('toggle-screen-icon');
+
+        for (let x = 0; x < toggle_screens.length; x++) {
+
+            toggle_screens[x].addEventListener('click', function () {
+
+                var elem = elem || document.documentElement;
+                if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                    !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                    if (elem.requestFullscreen) {
+                        elem.requestFullscreen();
+                    } else if (elem.msRequestFullscreen) {
+                        elem.msRequestFullscreen();
+                    } else if (elem.mozRequestFullScreen) {
+                        elem.mozRequestFullScreen();
+                    } else if (elem.webkitRequestFullscreen) {
+                        elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                    }
+                } else {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    } else if (document.mozCancelFullScreen) {
+                        document.mozCancelFullScreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    }
+                }
+
+            })
+
+        }
+
+        let Fullscreen = false;
+
+        document.addEventListener("fullscreenchange", function () {
+            if (Fullscreen) {
+                for (let x = 0; x < toggle_screens.length; x++) {
+                    toggle_screen_icons[x].classList.remove('icon-minimize');
+                    toggle_screens[x].classList.remove('inset-1');
+                    toggle_screen_icons[x].classList.add('icon-maximize');
+                    toggle_screens[x].title = "حالت تمام‌صفحه";
+                }
+                Fullscreen = false;
+            } else {
+                for (let x = 0; x < toggle_screens.length; x++) {
+                    toggle_screen_icons[x].classList.remove('icon-maximize');
+                    toggle_screen_icons[x].classList.add('icon-minimize');
+                    toggle_screens[x].classList.add('inset-1');
+                    toggle_screens[x].title = "حالت عادی";
+                }
+                Fullscreen = true;
+            }
+        });
+
+        var _Cookies$get;
+
+        let Mode = (_Cookies$get = Cookies.get('developix-mode')) !== null && _Cookies$get !== void 0 ? _Cookies$get : 'light';
+
+        const ModeSwitch = document.getElementById('mode-switch-toggle');
+
+        ModeSwitch.addEventListener('change', (event) => {
+            SwitchMode();
+        });
+
+        const SwitchMode = (reverse = false) => {
+
+            if (reverse) {
+                if (Mode === 'light') {
+                    setLightMode();
+                } else {
+                    setDarkMode();
+                }
+            } else {
+                if (Mode === 'light') {
+                    setDarkMode();
+                } else {
+                    setLightMode();
+                }
+            }
+
+        };
 
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h3>
-            <p class="fst-italic">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-            </p>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-            </p>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-            </p>
-          </div>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-3.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5" data-aos="fade-up">
-            <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h3>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
-              متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
-            <ul>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است چاپگرها</li>
-            </ul>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
-              با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده
-            </p>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
-              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
-              با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده </p>
-          </div>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/details-4.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h3>
-            <p class="fst-italic">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است لورم ایپسوم
-              متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
-            </p>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-              کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
-              شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
-              بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-              صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
-              زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
-              جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است</li>
-              <li><i class="bi bi-check"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                طراحان گرافیک است</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section>End Details Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <!-- <section id="gallery" class="gallery">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>عکس ها</h2>
-          <p>عکس ها رو حتما چک کنید</p>
-        </div>
-
-        <div class="row g-0" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
-              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Gallery Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>علی</h3>
-                <h4>مدیریت عامل &amp; موسس</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است <i
-                    class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>سمانه</h3>
-                <h4>طراح</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است <i
-                    class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-    <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>کاملیا</h3>
-                <h4>مدیریت روابط عمومی</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است <i
-                    class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>End testimonial item -->
-
-    <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>رضا</h3>
-                <h4>یک فریلنسر خلاق و متعهد</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است <i
-                    class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>End testimonial item -->
-
-    <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>کوروش</h3>
-                <h4>مدیر محصول</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است <i
-                    class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-    <!-- </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section> -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>تیم</h2>
-          <p>تیم خوش فکر خلاق ما</p>
-        </div>
-        <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>مهران علم‌بیگی</h4>
-                <span>عضو پارلمان دیارا</span>
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>یگانه تقی‌زاده</h4>
-                <span>عضو پارلمان دیارا</span>
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>سینا مهدی‌زادگان</h4>
-                <span>عضو پارلمان دیارا</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/hero-bg.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>عضو جدید پارلمان</h4>
-                <span>نفر بعدی</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      </div>
-    </section><!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>پنل ها</h2>
-          <p>پنل قیمتی پیشنهادی ما</p>
-        </div>
-
-        <div class="row" data-aos="fade-left">
-          <div class="col-lg-3 col-md-6">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>رایگان</h3>
-              <h4><sup> ﷼ </sup>0<span> / ماه</span></h4>
-              <ul>
-                <li>استفاده از منابع سیستمی شرکت</li>
-                <li>دریافت ماهیانه ۱۵۰۰ تومان</li>
-                <li>استفاده از بوفه شرکت</li>
-                <li class="na">خرید خانه در شکر‌آباد</li>
-                <li class="na">گرفتن امضا و سلفی از جمشید قاسم‌پور</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">همین الان خرید کنید</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
-              <h3>پنل پلاتینیوم</h3>
-              <h4><sup> ﷼ </sup>23000<span> / ماه</span></h4>
-              <ul>
-                <li>استفاده از منابع سیستمی شرکت</li>
-                <li>دریافت ماهیانه ۱۵۰۰ تومان</li>
-                <li>خرید خانه در شکر‌آباد</li>
-                <li>گرفتن امضا و سلفی از جمشید قاسم‌پور</li>
-                <li class="na">عکس با زری سازگار</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">همین الان خرید کنید</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <h3>پنل برنزی</h3>
-              <h4><sup> ﷼ </sup>29000<span> / ماه</span></h4>
-              <ul>
-                <li>عکس با زری سازگار</li>
-                <li>استفاده از منابع سیستمی شرکت</li>
-                <li>دریافت ماهیانه ۱۵۰۰ تومان</li>
-                <li>گرفتن امضا و سلفی از جمشید قاسم‌پور</li>
-                <li>خرید خانه در شکر‌آباد</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">همین الان خرید کنید</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="400">
-              <span class="advanced">پیشرفته</span>
-              <h3>پنل سوپر‌گلد</h3>
-              <h4><sup> ﷼ </sup>490000<span> / ماه</span></h4>
-              <ul>
-                <li>عکس با زری سازگار</li>
-                <li>همکلام شدن با آریا قاسم‌پور</li>
-                <li>دریافت ماهیانه ۱۰۰۰۰ تومان</li>
-                <li>خرید خانه در شکر‌آباد</li>
-                <li>گرفتن امضا و سلفی از جمشید قاسم‌پور</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">همین الان خرید کنید</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Pricing Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
-    <!-- <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>F.A.Q</h2>
-          <p>سوالات متداول</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                data-bs-target="#faq-list-1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،<i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-                class="collapsed">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-                class="collapsed">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
-                class="collapsed">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
-                class="collapsed">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
-                  متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section>End F.A.Q Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>راه‌های ارتباطی</h2>
-          <p>ارتباط با ماه</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>آدرس : </h4>
-                <p>قلعه حسن خان، خیابان محمد‌رضا، کوچه جمشید پلاک ۳۴</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>ایمیل :</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>شماره تماس : </h4>
-                <p>+98 099999923s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-
-            <form id="ajax-contact" role="form" class="php-email-form" action="mailer.php">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="اسمتون" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="ایمیلتون" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="پیام‌قشنگتون" required></textarea>
-              </div>
-              <div id="form-messages">
-
-              </div>
-              <div class="text-center"><button type="submit">ارسال پیامتون</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>دیارا</h3>
-              <p>
-                ایران، تهران <br>
-                <br>
-                <strong>Phone:</strong> 09211756034<br>
-                <strong>Email:</strong> info@diara.ir<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>لینک‌های مفید</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">خانه</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">درباره ما</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">سرویس ها</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">شرایط استفاده از سرویس ها</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">قوانین</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>سرویس های ما</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">طراحی‌وب</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">برنامه‌نویسی وب</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">برنامه نویسی اپ‌اندروید</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">مارکتینگ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">طراحی گرافیک</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>خبرگذاری ایمیلی ما</h4>
-            <p>با مشترک شدن در ایمیل ما از آپدیت های جدید مهرانیا باخبر شوید</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="مشترک‌شوید!">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; ساخته شده با قلب توسط تیم دیارا
-      </div>
-      <div class="credits">
-        Designed by <a href="https://github.com/Mehranalam">Diara - a Powerful Team</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+        const setDarkMode = () => {
+            document.body.classList.add('dark');
+            Cookies.set('developix-mode', 'dark', { expires: 30, path: '' });
+            Mode = 'dark';
+            ModeSwitch.checked = false;
+            document.querySelector("meta[name=theme-color]").setAttribute("content", "#2d2d2d");
+            document.querySelector("meta[name=msapplication-TileColor]").setAttribute("content", "#2d2d2d");
+            NotifyMode('dark');
+        };
+
+        const setLightMode = () => {
+            document.body.classList.remove('dark');
+            Cookies.set('developix-mode', 'light', { expires: 30, path: '' });
+            Mode = 'light';
+            ModeSwitch.checked = true;
+            document.querySelector("meta[name=theme-color]").setAttribute("content", "#ebebeb");
+            document.querySelector("meta[name=msapplication-TileColor]").setAttribute("content", "#ebebeb");
+            NotifyMode('light');
+        };
+
+        SwitchMode(true);
+
+        window.addEventListener("storage", ReceiveMode);
+
+        function NotifyMode(message) {
+            localStorage.setItem('message', JSON.stringify(message));
+        }
+
+        function ReceiveMode(ev) {
+            if (ev.key === 'message') {
+                let message = JSON.parse(ev.newValue);
+
+                switch (message) {
+                    case "dark":
+                        setDarkMode();
+                        break;
+                    case "light":
+                        setLightMode();
+                        break;
+                }
+
+            }
+        }
+
+        function DrawArrow(a, b, d4 = null, start, end) {
+
+            let line_svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            line_svg.setAttribute("viewBox", "0 0 " + document.body.offsetWidth + " " + Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight));
+            line_svg.classList.add('line-svg');
+
+            let path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+
+            let d1, d2, d3, d5, d6;
+
+            if (start === 'bottom') {
+
+                d1 = a.offsetLeft + (a.offsetWidth / 2);
+                d2 = a.offsetTop + a.offsetHeight;
+
+            } else if (start === 'left') {
+
+                d1 = a.offsetLeft + 10;
+                d2 = a.offsetTop + (a.offsetHeight / 2);
+
+            } else if (start === 'right') {
+
+                d1 = a.offsetLeft + a.offsetWidth - 10;
+                d2 = a.offsetTop + (a.offsetHeight / 2);
+
+            } else if (start === 'top') {
+
+                d1 = a.offsetLeft + (a.offsetWidth / 2);
+                d2 = a.offsetTop + 10;
+
+            }
+
+            if (end === 'bottom') {
+
+                d5 = (b.offsetLeft + (b.offsetWidth / 2)) - d1;
+                d6 = (b.offsetTop + b.offsetHeight) - d2;
+
+            } else if (end === 'left') {
+
+                d5 = (b.offsetLeft) - d1;
+                d6 = (b.offsetTop + (b.offsetHeight / 2)) - d2;
+
+            } else if (end === 'right') {
+
+                d5 = (b.offsetLeft + b.offsetWidth) - d1;
+                d6 = (b.offsetTop + (b.offsetHeight / 2)) - d2;
+
+            } else if (end === 'top') {
+
+                d5 = (b.offsetLeft + (b.offsetWidth / 2)) - d1;
+                d6 = (b.offsetTop) - d2 + 10;
+            }
+
+
+            d3 = d5 / 2;
+
+            if (d4 === null) {
+                d4 = d5;
+            }
+
+            let d = `M ${d1} ${d2} q ${d3} ${d4} ${d5} ${d6}`;
+
+            path.setAttributeNS(null, "d", d);
+            path.setAttribute('stroke', 'gray');
+            path.setAttribute('stroke-width', '5');
+            path.setAttribute('stroke-dasharray', '10');
+            path.setAttribute('fill', 'none');
+
+            line_svg.appendChild(path);
+            document.body.appendChild(line_svg);
+
+        }
+
+        function DrawArrows() {
+
+            let CurrentArrows = document.querySelectorAll('.line-svg');
+
+            for (let i = 0; i < CurrentArrows.length; i++) {
+
+                CurrentArrows[i].remove();
+
+            }
+
+            for (let i = 0; i < targets.length; i++) {
+
+                setTimeout(function () {
+                    DrawArrow(document.getElementById(targets[i][0]), document.getElementById(targets[i][1]), targets[i][2], targets[i][3], targets[i][4]);
+                }, 250);
+
+            }
+
+        }
+
+        window.addEventListener('resize', function () {
+            DrawArrows();
+        });
+
+        let images = [];
+
+        function PreloadImages() {
+            for (let i = 0; i < arguments.length; i++) {
+                images[i] = new Image();
+                images[i].src = PreloadImages.arguments[i];
+            }
+        }
+
+        function HandleWebsiteItemClick() {
+
+            if (!(this.classList.contains('open')) && !(document.body.classList.contains('blur'))) {
+
+                let img = this.children[1].children[0];
+                if (img.src.endsWith('-Thumbnail.png')) {
+                    img.src = img.src.replace('-Thumbnail.png', '.png');
+                }
+
+                this.classList.remove('clickable');
+                this.classList.add('open');
+
+                setTimeout(function () {
+                    document.getElementById('fake-blur').style.display = 'block';
+                    document.body.classList.add('blur');
+                }, 100);
+
+                this.children[0].addEventListener('click', function () {
+                    CloseWebsitePopup(this.parentElement);
+                });
+
+            }
+
+        }
+
+        function CloseWebsitePopup(element) {
+
+            let img = element.children[1].children[0];
+            if (!(img.src.endsWith('-Thumbnail.png'))) {
+                img.src = img.src.replace('.png', '-Thumbnail.png');
+            }
+
+            element.classList.add('clickable');
+
+            element.classList.remove('open');
+
+            setTimeout(function () {
+                document.getElementById('fake-blur').style.display = 'none';
+                document.body.classList.remove('blur');
+            }, 100);
+
+        }
+
+        let website_items = document.querySelectorAll('.item-website');
+
+        for (let i = 0; i < website_items.length; i++) {
+
+            website_items[i].addEventListener('click', HandleWebsiteItemClick);
+
+        }
+
+        document.getElementById('fake-blur').addEventListener('click', function () {
+
+            CloseWebsitePopup(document.querySelector('.open'));
+
+        });
+
+        PreloadImages(
+            "assets/images/screenshots/Ronio.png",
+            "assets/images/screenshots/Smusher.png",
+            "assets/images/screenshots/Filito.png",
+        );
+
+        DrawArrows();
+
+        function ScrollEvent() {
+
+            if (window.scrollY <= 200) {
+
+                document.getElementById('back-to-top').style.display = 'none';
+
+            } else {
+
+                document.getElementById('back-to-top').style.display = 'block';
+
+            }
+
+        }
+
+        document.addEventListener('scroll', ScrollEvent);
+
+        document.getElementById('back-to-top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR2YQLRZVB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DR2YQLRZVB');
+    </script>
+
+    <script>NProgress.done()</script>
 
 </body>
 
