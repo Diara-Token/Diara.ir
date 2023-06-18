@@ -1,0 +1,124 @@
+Version: 4.7.1
+  - Fixed gallery padding issue
+
+Version: 4.7.0
+  - Updated Bootstrap to version 5.1.3
+  - Updated all outdated third party vendor libraries to their latest versions
+
+Version: 4.6.0
+  - Updated Bootstrap to version 5.1.2
+  - Updated all outdated third party vendor libraries to their latest versions
+
+Version: 4.5.0
+  - Fixed slider issue in testimonials and portfolio details sections
+
+Version: 4.4.0
+  - Updated Bootstrap to version 5.1.1
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Improved and updated dev version gulp scripts
+
+Version: 4.3.0
+  - Updated Bootstrap to version 5.0.1
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Fixed navigation links focus color
+
+Version: 4.2.0
+  - Updated Bootstrap to version 5.0.0 Final
+  - Updated all outdated third party vendor libraries to their latest versions
+
+Version: 4.1.0
+  - Updated Bootstrap to version 5.0.0-beta3
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Updated the PHP Email Form to V3.1
+
+Version: 4.0.1
+  - Updated Bootstrap to version 5.0.0-beta2
+  - Updated all outdated third party vendor libraries to their latest versions
+
+Version: 4.0.0
+  - The template does not require jQuery anymore
+  - Removed jQuery and all the jQuery plugins
+  - The assets/js/main.js was rewritten completely with vanilla Javascript. No more jQuery code
+  - Restructured the dev version for better development experience
+  - Updated the PHP Email Form to V3.0 - No jQuery dependency. Added attachment support
+
+Version: 3.0.0
+  - Initial release with Bootstrap v5.0 Beta 1
+
+Version: 2.3.0
+  - Updated Bootstrap to version 4.5.3
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Updated the PHP Email Form to v2.3
+  - Other small fixes and improvements
+
+Version: 2.2.0
+  - Updated Bootstrap to version 4.5.0
+  - Updated the PHP Email Form library to version 2.0 with reCaptcha support
+  - Aded inner-page.html tempalte
+  - Added smooth scroll on page load with hash links in the url
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Other small fixes and improvements
+  
+Version: 2.1.0
+  - Updated the hero waves effect to use native CSS animations instead of third party libraries
+
+Version: 2.0.0
+  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
+  - Added SMPTP support for the contact form script (Pro)
+  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
+  
+Version: 1.0.0
+  - Initial Release
+
+Version: 1.1.0
+  - change font to Lalezar for persian user 
+
+
+- Mehran Alam Beigi - Developer this project
+
+
+change log 2022-03-02
+
+
+
+⚖ برای فعالیت در تیم تمامی کاربران ملزم به رعایت و پایبندی‌های زیر می‌باشند و هرگونه عملی در جهت نقض قوانین ذکر شده باعث محدود شدن عضو و کثر امتیاز می‌شود. بدیهی است که میزان و مدت محدودسازی و کثر امتیاز کاربران وابسته به میزان تخلف صورت گرفته می‌باشد.
+
+هر عضو داخل مجموعه دارای یک پروفایل کاربری میباشد، که دارای اطلاعاتی مانند مجموعه بونس ها یا امتیاز، مهارت های کاربردی، لینک رزومه و درصد میزان مشارکت است.
+
+مجموعه در آخر هر ماه یکسری تعاریف پروژه‌ای در ۲ زمینه مهندسی کامپیوتر و پزشکی خواهد داشت، و ارائه پروژه مدت زمانی حداکثر ۲ هفته‌ای رو دارد.
+
+احتمالا در تابستون و اتفاق نظر در یکسری روز های خاص ویس چت خواهیم داشت و تبادل اطلاعات خواهیم کرد.
+
+دریافت امتیاز ها منوت به میزان مشارکت عضو داخل مجموعه‌است، به هر اندازه که عضوی مفید و ارزشمند باشد، به طبع امتیاز بالاتری خواهد داشت.
+
+فواید این امتیاز ها میتونه ارجهیت ارسال رزومه برای دریافت پیشنهادات کاری باشد.
+
+اولین روز هفته، عموما تاپیک هدف برای یادگیری در بازه یک هفته‌ای در نظر گرفته میشود و به مهارت های کاربردی درصورت تسلط کافی اضافه میشود.
+
+با توجه به میزان مهارت ها در زمینه های مختلف و با ایجاد یک بستر عالی اقدام به دریافت پروژه های موضوعی خواهیم کرد. [ کارهای دانشجویی، اسکیل های تجاری و ... ]
+
+درصد سود حاصل از پروژه ها بصورت یکسان بین اعضا تقسیم میشود [ درصورت تک بعدی بودن انجام پروژه، فرد انجام دهنده مقدار ۲۰ درصد از سود حاصل را بیشتر اخذ خواهد کرد ]
+ 
+یک بورد برنامه‌ای هم‌خواهیم داشت، برای مشخص کردن برنامه های هر عضو [ عموما اهداف برای هر عضو متفاوت است ]
+
+پروفایل کاربری در ۲ بستر [ ربات تلگرامی دیارا و وب-سایت دیارا خواهد بود ]
+
+Sina.diara.ir , Yeganeh.diara.ir
+
+با تبلیغات نیمه هدف در مجامع مختلف اقدام به دریافت پروژه خواهیم کرد، با توجه به اعتماد کافی در انجام آنها.
+
+هر پروژه با توجه به ابعادش دارای یک قرار داد تنظیمی خواهد بود.
+
+در ایام امتحانات برای عدم ایجاد خلل در فرایند آموزشی - تمام فری خواهیم بود.
+
+در ایام خارج امتحانات، هر عضو با توجه به میزان امتیاز یا بونس میتواند مرخصی بگیرد، رهبری مجموعه نیز به صورت پارلمانی خواهد بود و فرد خاصی تصمیم گیری نخواهد داشت و برای هر موضوعی نیاز به رای‌گیری خواهد بود.
+
+بستر بعدی دیارا، ایجاد یکسری سرویس های عام‌‌المنفعه است، که با ایجاد ارزش بتواند مخاطب جذب و درنهایت میزان دریافتی پروژه های خود را بالا ببرد.
+
+مانند: سرویس های خدمات دهی رایگان:
+
+roadmap.diara.ir
+membership.diara.ir
+english.diara.ir
+
+و درنهایت قیمت گذاری پروژه ها بر اساس سند تعرفه‌ای ارزش گذاری و با ایجاد یک قرار داد جامع المنافع اقدام به انجام میکنیم.
