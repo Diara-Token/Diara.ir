@@ -13,7 +13,9 @@
   }
 
 }
-
+.iphone-container {
+  display: none;
+}
 @media only screen and (max-width: 1080px) {
 
   #back-to-top {
@@ -126,6 +128,7 @@
   .toggle-btn {
     margin-right: 0 !important;
   }
+   
 
   #section-bots {
 
@@ -358,3 +361,4 @@
   }
 
 }
+
